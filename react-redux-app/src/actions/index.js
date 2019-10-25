@@ -6,13 +6,13 @@ export const ERROR = 'FETCH_PLANET_ERROR';
 
 // 3 action types for fetching, success, and error
 
-export function fetchPlanets() {
+export function fetchSpecies() {
   // thunk function
   return dispatch => {
     dispatch({ type: START});
 
     axios
-      .get(`https://swapi.co/api/planets/`)
+      .get(`https://swapi.co/api/species/`)
       .then(response => {
         dispatch({
           type: SUCCESS,
