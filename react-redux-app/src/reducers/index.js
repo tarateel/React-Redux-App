@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import { planetsReducer } from './planetsReducer';
+import { speciesReducer } from './speciesReducer';
 
 export default combineReducers({
-  planetsReducer
+  speciesReducer
 });

@@ -7,7 +7,7 @@ const initialState = {
   error: null
 };
 
-export function speciesReducer(state = initialState, action) {
+export const speciesReducer = (state = initialState, action) => {
   switch(action.type) {
     case START:
       return {
@@ -34,3 +34,5 @@ export function speciesReducer(state = initialState, action) {
       return state;
   };
 };
+
+export default speciesReducer;
