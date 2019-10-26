@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-export const START = 'FETCH_PLANET_START';
-export const SUCCESS = 'FETCH_PLANET_SUCCESS';
-export const ERROR = 'FETCH_PLANET_ERROR';
+export const START = 'FETCH_SPECIES_START';
+export const SUCCESS = 'FETCH_SPECIES_SUCCESS';
+export const ERROR = 'FETCH_SPECIES_ERROR';
 
 // 3 action types for fetching, success, and error
 
